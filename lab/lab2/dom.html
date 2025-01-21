@@ -1,0 +1,25 @@
+
+<!-- DOM Elements -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+    <title>LAB 2 </title>
+</head>
+<body>
+    <h1 id="heading">Welcome to LAB 2 Exercise</h1>
+    <button id="changeText">Change Text</button>
+
+    <script>
+    document.getElementById('changeText').addEventListener('click',function(){
+        let para=document.getElementById('heading');
+        para.style.color='red';
+        para.style.fontWeight='bold';
+
+    });
+    </script>
+    </body>
+    </html>
+
+
